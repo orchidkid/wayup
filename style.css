@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	overflow-x:hidden;
+}
+
+.header {
+background: -webkit-linear-gradient(135deg, rgb(77, 190, 254), rgb(55, 143, 217));
+background: -moz-linear-gradient(135deg, rgb(77, 190, 254), rgb(55, 143, 217));
+background: linear-gradient(135deg, rgb(77, 190, 254), rgb(55, 143, 217));
+}
+
+.content {
+width: 1170px;
+margin: 0 auto;
+}
+
+.logo {
+padding-top:66px;
+}
+
+.container {
+display: flex;
+align-items:center;
+}
+
+.leftblock {
+font-family: 'Ubuntu', sans-serif;
+color:white;
+}
+
+.leftblock h1 {
+	font-size: 37px;
+	font-weight: 900;
+}
+
+.leftblock span {
+font-size: 59px;
+}
+
+.p_left {
+width: 70%;
+margin-top:48px; 
+color:white;
+line-height:30px;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+margin-top:45px;
+width: 221px;
+background-color: #ffd429;
+font-size: 15px;
+padding: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+border: none;
+}
+
+.section1 {
+background-color: #fff;
+padding: 110px 0px 120px 0px;
+}
+
+.section1 h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+}
+
+.section1 h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size:19px;
+}
+
+.section1 p {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size:15px;
+	line-height:20px;
+	padding-top:30px;
+}
+
+.title {
+text-align:center;
+}
+
+.container2 {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	text-align:center;
+	padding-top:70px;
+}
+
+.icon {
+	padding-bottom:35px;
+}
+
+.leftmain {
+width:295px;
+}
+.centermain {
+width:295px;
+}
+.rightmain {
+width:295px;
+}
+
+.section2 {
+background-color: #ecf3f8;
+padding:100px 0;
+}
+
+.container3 {
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.section2 h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size:30px;
+}
+
+.form {
+width:340px;
+display:flex;
+flex-direction:column;
+margin-top:50px;
+}
+
+.form input{
+margin:8px 0px;
+padding: 16px 0px 19px 24px;
+border:1.5px solid #bbbbbb;
+border-radius:5px;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 400;
+font-size:15px;
+}
+
+.form input[type=submit]{
+background-color: #ffd429;
+font-size: 15px;
+padding: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+border: none;
+border-radius:0px;
+}
+
+.footer{
+	background-color: #164d7a;
+	padding: 60px 0;
+	text-align:center;
+	font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+color:#fff;
+}
+
+@media screen and (max-width:1140px){
+	.content {
+		width:960px;
+	}
+}
+
+@media screen and (max-width:960px){
+	.content {
+		width:720px;
+	}
+
+	.container,
+	.container2,
+	.container3 {
+		display:flex;
+		flex-direction:column;
+	}
+
+	.logo {
+		padding-bottom:100px;
+	}
+
+.headimg,
+.leftblock {
+	width:100%;
+}
+
+	.centermain,
+	.rightmain{
+		margin-top:40px;
+	}
+}
+
+@media screen and (max-width:720px){
+	.content {
+		width:540px;
+	}
+}
+
+@media screen and (max-width:540px){
+	.content {
+		width:90%;
+	}
+
+}
